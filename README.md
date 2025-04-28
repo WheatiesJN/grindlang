@@ -31,16 +31,16 @@ The interpreter is python, download all the files and import them into your IDE 
 ## List of keywords/operators
 
 Command | Description
-spawn varname | Creates a new variable named varname and sets it to an empty string (""). Think of it like getting an empty inventory slot ready.
-equip varname = value | Assigns a value to an existing variable. If the value is a number or another variable, it's stored directly.
-quest varname | Prompts the user to enter input during the program's run, and stores that input into the specified variable.
-say value_or_varname | Prints a string literal or the contents of a variable to the terminal. Used for displaying messages to the player.
-loot varname = value1 + value2 | Performs basic addition between two numbers or variables. The result is stored into varname.
-chant reverse varname | Takes a string stored in varname and reverses its characters. Good for puzzles or simple transformations.
-repeat varname value_to_repeat | Repeats a printed value a number of times based on the integer stored in varname. Think of it like a simple for-loop.
-grind | Enters "grind mode," an interactive loop where a block of commands is repeated until the user types exit. Useful for continuous action.
-forge varname = type | Converts the data type of a variable to either int or str. Example: forge score = int turns score into an integer for math.
-cat mode | Special command for controlling how text is output. Modes:  1 = normal,  2 = reversed characters,  3 = reversed lines,  4 = both reversed characters and lines.
+* spawn varname | Creates a new variable named varname and sets it to an empty string (""). Think of it like getting an empty inventory slot ready.
+* equip varname = value | Assigns a value to an existing variable. If the value is a number or another variable, it's stored directly.
+* quest varname | Prompts the user to enter input during the program's run, and stores that input into the specified variable.
+* say value_or_varname | Prints a string literal or the contents of a variable to the terminal. Used for displaying messages to the player.
+* loot varname = value1 + value2 | Performs basic addition between two numbers or variables. The result is stored into varname.
+* chant reverse varname | Takes a string stored in varname and reverses its characters. Good for puzzles or simple transformations.
+* repeat varname value_to_repeat | Repeats a printed value a number of times based on the integer stored in varname. Think of it like a simple for-loop.
+* grind | Enters "grind mode," an interactive loop where a block of commands is repeated until the user types exit. Useful for continuous action.
+* forge varname = type | Converts the data type of a variable to either int or str. Example: forge score = int turns score into an integer for math.
+* cat mode | Special command for controlling how text is output. Modes:  1 = normal,  2 = reversed characters,  3 = reversed lines,  4 = both reversed characters and lines.
 
 ## Example Program | reversestring.txt
 quest message:
