@@ -30,22 +30,24 @@ The interpreter is python, download all the files and import them into your IDE 
 
 ## List of keywords/operators
 
-1. say: display text or a variable's value to the console.
+Command | Description
+spawn varname | Creates a new variable named varname and sets it to an empty string (""). Think of it like getting an empty inventory slot ready.
+equip varname = value | Assigns a value to an existing variable. If the value is a number or another variable, it's stored directly.
+quest varname | Prompts the user to enter input during the program's run, and stores that input into the specified variable.
+say value_or_varname | Prints a string literal or the contents of a variable to the terminal. Used for displaying messages to the player.
+loot varname = value1 + value2 | Performs basic addition between two numbers or variables. The result is stored into varname.
+chant reverse varname | Takes a string stored in varname and reverses its characters. Good for puzzles or simple transformations.
+repeat varname value_to_repeat | Repeats a printed value a number of times based on the integer stored in varname. Think of it like a simple for-loop.
+grind | Enters "grind mode," an interactive loop where a block of commands is repeated until the user types exit. Useful for continuous action.
+forge varname = type | Converts the data type of a variable to either int or str. Example: forge score = int turns score into an integer for math.
+cat mode | Special command for controlling how text is output. Modes:  1 = normal,  2 = reversed characters,  3 = reversed lines,  4 = both reversed characters and lines.
 
-2. quest: ask the user for input and store it.
+## Example Program | reversestring.txt
+quest message:
+Prompts the user to type a message. Saves it into the variable message.
 
-3. equip: assign a value to an existing variable.
+chant reverse message:
+Takes the message variable and reverses its string contents.
 
-4. spawn: create a new variable with a default value (like 0 for int, "" for string).
-
-5. forge: cast (convert) a variable to a new type (integer or string).
-
-6. chant: call an internal or built-in function (e.g., reverse, repeat).
-
-7. loot:  result of an operation (e.g., math result, function result).
-
-8. afk:  exit the interpreter (quit the program).
-
-9. grind:  start a loop that takes repeated user input.
-
-10. rest:  end the grind loop.
+say message:
+Prints the reversed message back to the user.
