@@ -1,0 +1,3 @@
+# cat.txt
+quest cat_mode "Choose cat mode:\n1 - normal\n2 - reverse characters\n3 - reverse lines\n4 - reverse lines and characters\n"
+cat example.txt

@@ -1,0 +1,4 @@
+# repeater.txt
+quest character "Enter a value for character: "
+quest times "Enter a value for times: "
+repeat

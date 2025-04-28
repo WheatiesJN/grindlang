@@ -1,0 +1,10 @@
+say	print something	
+quest	ask user for input	
+equip	assign variable	
+spawn	create and set variable to default (like 0 or empty string)	
+forge	cast variable (str or int)	
+chant	call internal function (like reverse)	
+loot	result of an operation	
+afk	exit interpreter	
+grind	start user input loop	
+rest	end user input loop

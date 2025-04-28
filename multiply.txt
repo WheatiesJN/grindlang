@@ -1,0 +1,6 @@
+quest num1
+quest num2
+forge num1 int
+forge num2 int
+loot product = num1 * num2
+say product
