@@ -28,4 +28,24 @@ The interpreter is python, download all the files and import them into your IDE 
 * Grind Mode (Interactive Loops): The grind command activates an interactive mode where the program executes a series of commands repeatedly until the user chooses to exit.
 * Data Type Conversion: The forge command allows typecasting variables between int and str to perform operations based on the correct data type.
 
-More TBD: 
+## List of keywords/operators
+
+1. say: display text or a variable's value to the console.
+
+2. quest: ask the user for input and store it.
+
+3. equip: assign a value to an existing variable.
+
+4. spawn: create a new variable with a default value (like 0 for int, "" for string).
+
+5. forge: cast (convert) a variable to a new type (integer or string).
+
+6. chant: call an internal or built-in function (e.g., reverse, repeat).
+
+7. loot:  result of an operation (e.g., math result, function result).
+
+8. afk:  exit the interpreter (quit the program).
+
+9. grind:  start a loop that takes repeated user input.
+
+10. rest:  end the grind loop.
