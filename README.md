@@ -43,15 +43,18 @@ Command | Description
 * cat mode | Special command for controlling how text is output. Modes:  1 = normal,  2 = reversed characters,  3 = reversed lines,  4 = both reversed characters and lines.
 
 ## Example Program | reversestring.txt
-quest userinput
-chant reverse userinput
+
+quest userinput  
+
+chant reverse userinput  
+
 say userinput
 
-quest message:
+quest message:  
 Prompts the user to type a message. Saves it into the variable message.
 
-chant reverse message:
+chant reverse message:  
 Takes the message variable and reverses its string contents.
 
-say message:
+say message:  
 Prints the reversed message back to the user.
